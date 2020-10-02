@@ -174,7 +174,7 @@ main .sobre-nosotros{
 }
 /*fff*/
 .hover-galeria p{
-    color: #000;
+    color: #fff;
 }
 
 .imagen-port:hover .hover-galeria{
@@ -190,10 +190,11 @@ main .sobre-nosotros{
 
 .cards .card{
 /*    background: #4d0686;*/
-    background: #4d4d4d;
+    background: #4a4a4a;
     display: flex;
     width: 46%;
-    height: 200px;
+/*    height: 200px;*/
+    height: 400px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
