@@ -318,7 +318,8 @@ footer{
     /* Clientes */
 
     .cards{
-        flex-direction: column;
+/*        flex-direction: column;*/
+        flex-direction: center;
         justify-content: center;
         align-items: center;
     }
