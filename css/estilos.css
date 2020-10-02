@@ -186,7 +186,8 @@ main .sobre-nosotros{
 .cards{
     display: flex;
 /*    justify-content: space-evenly;*/
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;	
 	
 }
 
