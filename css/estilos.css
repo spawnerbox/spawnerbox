@@ -188,7 +188,7 @@ main .sobre-nosotros{
 .cards .card{
     background: #4d0686;
     display: flex;
-    width: 60%;
+    width: 46%;
     height: 200px;
     align-items: center;
     justify-content: space-evenly;
@@ -197,8 +197,8 @@ main .sobre-nosotros{
 }
 
 .cards .card img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 3px solid #fff;
     border-radius: 50%;
