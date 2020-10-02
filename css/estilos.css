@@ -186,7 +186,8 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #4d0686;
+/*    background: #4d0686;*/
+    background: #4d4d4d;
     display: flex;
     width: 46%;
     height: 200px;
@@ -197,8 +198,8 @@ main .sobre-nosotros{
 }
 
 .cards .card img{
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
     border: 3px solid #000;
     border-radius: 50%;
