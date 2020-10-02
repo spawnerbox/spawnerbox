@@ -197,10 +197,10 @@ main .sobre-nosotros{
 }
 
 .cards .card img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    border: 3px solid #fff;
+    border: 3px solid #000;
     border-radius: 50%;
     display: block;
 }
