@@ -187,7 +187,7 @@ main .sobre-nosotros{
     display: flex;
 /*    justify-content: space-evenly;*/
     flex-direction: column;
-    justify-content: space-between;	
+    justify-content: center;	
 	
 }
 
@@ -197,7 +197,7 @@ main .sobre-nosotros{
     display: flex;
     width: 46%;
 /*    height: 200px;*/
-    height: 400px;
+    height: 300px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
