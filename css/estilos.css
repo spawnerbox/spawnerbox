@@ -45,7 +45,8 @@ nav{
 }
 
 nav > a{
-    color:#fff;
+	/*fff*/
+    color:#000;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
