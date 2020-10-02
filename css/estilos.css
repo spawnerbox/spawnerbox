@@ -58,7 +58,7 @@ nav > a:hover{
 header .textos-header{
     display: flex;
     height: 430px;
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -67,7 +67,7 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 50px;
-    color:#ffa;
+    color:#fff;
 }
 
 .textos-header h2{
@@ -360,7 +360,7 @@ footer{
     }
 
     .textos-header h1{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .textos-header h2{
