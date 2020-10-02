@@ -201,7 +201,7 @@ main .sobre-nosotros{
     align-items: center;
     justify-content: center;
 /*    justify-content: space-evenly;*/
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
 
@@ -211,7 +211,7 @@ main .sobre-nosotros{
     object-fit: contain;
 	/*object-fit: cover;*/
     border: 3px solid #000;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     display: block;
 }
 
