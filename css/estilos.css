@@ -194,16 +194,14 @@ main .sobre-nosotros{
     background: #3a3a3a;
     width: 80%;
     height: 300px;
-	position: absolute;
     /*align-items: center;*/
     /*justify-content: center;*/
-    /*justify-content: space-evenly;*/
+    justify-content: space-evenly;
     /*border-radius: 5px;*/
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
 
 .cards .card img{
-    align-items: center;
 	width: 140px;
     height: 140px;
     object-fit: cover;
