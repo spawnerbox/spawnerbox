@@ -206,12 +206,11 @@ main .sobre-nosotros{
     align-items: center;
 	width: 140px;
     height: 140px;
-	position: absolute;
     object-fit: cover;
 	/*object-fit: cover;*/
     /*border: 3px solid #000;*/
     border-radius: 50%;
-    display: block;
+    display: flex;
 }
 
 .cards .card > .contenido-texto-card{
