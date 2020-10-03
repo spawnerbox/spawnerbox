@@ -202,7 +202,8 @@ main .sobre-nosotros{
 }
 
 .cards .card img{
-    width: 140px;
+    align-items: center;
+	width: 140px;
     height: 140px;
     object-fit: cover;
 	/*object-fit: cover;*/
