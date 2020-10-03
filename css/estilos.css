@@ -184,14 +184,13 @@ main .sobre-nosotros{
 /* Clients */
 
 .cards{
-    display: flex;
-	justify-content: space-between;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
 }
 
 .cards .card{
-/*    background: #4d0686;*/
     background: #3a3a3a;
     width: 80%;
     height: 300px;
@@ -208,7 +207,7 @@ main .sobre-nosotros{
     object-fit: cover;
 	/*object-fit: cover;*/
     /*border: 3px solid #000;*/
-    /*border-radius: 50%;*/
+    border-radius: 50%;
     display: block;
 }
 
