@@ -185,22 +185,18 @@ main .sobre-nosotros{
 
 .cards{
     display: flex;
-/*    justify-content: space-evenly;*/
     flex-direction: column;
-    justify-content: center;	
-	
+    align-items: flex-start;
 }
 
 .cards .card{
 /*    background: #4d0686;*/
     background: #3a3a3a;
-    display: flex;
-    flex-direction: column;	
     width: 80%;
     height: 300px;
-    align-items: center;
+    /*align-items: center;*/
     /*justify-content: center;*/
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     /*border-radius: 5px;*/
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
