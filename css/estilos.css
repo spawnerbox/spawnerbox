@@ -208,9 +208,9 @@ main .sobre-nosotros{
 .cards .card img{
     width: 140px;
     height: 140px;
-    object-fit: contain;
+    object-fit: scale-down;
 	/*object-fit: cover;*/
-    border: 3px solid #000;
+    /*border: 3px solid #000;*/
     /*border-radius: 50%;*/
     display: block;
 }
