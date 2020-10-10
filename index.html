@@ -8,7 +8,27 @@
     <title>Spawnerbox Oficial</title>
     <link rel="shortcut icon" href="img/gizm08.png" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">-->
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&display=swap" rel="stylesheet">
+	<style>
+	body {
+	/*  font-family: "open sans";*/
+	  font-family: "cabin";
+	  font-size: 20px;
+	}
+	.flex-container {
+	  display: flex;
+	  background-color: BLACK;
+	}
+
+	.flex-container > div {
+	  background-color: #3b4f6f;
+	  color:Lightgray;
+	  margin: 10px;
+	  padding: 10px;
+	  font-size: 20px;
+	}
+	</style>	
 </head>
 
 <body>
@@ -73,7 +93,7 @@
         </section>
 		-->
         <section class="about-services">
-            <div class="contenedor">
+         <!--   <div class="contenedor">
                 <h2 class="titulo">Mejore la Experiencia sin Limitaciones</h2>
                 <div class="servicio-cont">
                     <div class="servicio-ind">
@@ -104,6 +124,7 @@
 							<input type="hidden" name="currency_code" value="USD">
 							<input type="image" src="https://github.com/spawnerbox/spawnerbox/blob/spawnerbox/img/b_paypal.gif?raw=true" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
 							-->
+							<!--
 							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 						</form>
 					</div>
@@ -119,6 +140,65 @@
 					</div>
                 </div>
             </div>
+			-->
+			<div class="flex-container">
+			  <div>
+				<div>
+				<table>
+				  <tr>
+					  <td rowspan="3">
+						  <img src="https://spawnerbox.github.io/spawnerbox/img/sbox_vip.png" style="max-width:215px">
+					  </td>    
+					  <td rowspan="3"></td>
+					  <td rowspan="3"></td>
+					  <td colspan="2">
+						  <a>Spawnerbox VIP ACCESS</a>
+					  </td>      
+				  </tr>
+				  <tr>  
+					  <td colspan="2">
+						  <p>Acceda a características y comandos exclusivos para usuarios VIP</p>
+					  </td>
+				  </tr>
+				  <tr>         
+					 <td>
+						  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							  <input type="hidden" name="cmd" value="_s-xclick">
+							  <input type="hidden" name="hosted_button_id" value="B3C9QQN3R4F98">
+							  <input type="hidden" name="currency_code" value="USD">
+							  <input type="image" src="https://github.com/spawnerbox/spawnerbox/blob/spawnerbox/img/b_paypal.gif?raw=true"
+									 border="0" name="submit" alt="" style="max-width:215px">					
+							  <table>
+								  <tr><td><input type="hidden" name="on0" value="Seleccione el tiempo que desea contratar">
+								  <select name="os0">
+									<option value="(1) mes">VIP(1) mes $4,00 USD</option>
+									<option value="(3) meses">VIP(3) meses $10,00 USD</option>
+									<option value="(6) meses">VIP(6) meses $16,00 USD</option>
+									<option value="(12) meses">VIP(12) meses $26,00 USD</option>
+								  </select></td></tr>
+							  </table>
+							  <!--<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
+						  </form>
+					 </td>
+					 <td>
+							<a id="link" href="https://mpago.la/1X4E7Lo"><span id="selectedValue"></span><img border="0"
+							   src="https://spawnerbox.github.io/spawnerbox/img/b_mp.gif" alt="Pagar con Mercadopago"
+							   name="sub_mp"></img></a>
+							<table>
+							<tr><td>
+							  <select name="sequence" id="sequence" onChange="changeLink(this.value);">
+								<option value="" selected="selected">MERCADOPAGO ARGENTINA</option>
+								<option value="https://mpago.la/28m8crE">VIP(1) mes AR$ 600</option>
+								<option value="https://mpago.la/1X4E7Lo">VIP(3) meses AR$ 1500</option>
+								<option value="https://mpago.la/22wBhCU">VIP(6) meses AR$ 2400</option>
+								<option value="https://mpago.la/14TVbXu">VIP(12) meses AR$ 3900</option>
+							  </select></td></tr>
+							  </table>                 
+					 </td>
+				  </tr>
+				  </table>
+				</div>  
+			</div>			
         </section>
         <section class="linea2">		
         </section>
