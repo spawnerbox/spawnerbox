@@ -232,6 +232,8 @@ main .sobre-nosotros{
 	
 	
     display: flex;
+	flex-direction: row;
+	
     height: 430px;
     width: 80%;
     align-items: center;
