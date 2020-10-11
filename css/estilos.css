@@ -238,7 +238,7 @@ main .sobre-nosotros{
     width: 80%;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
 	
 }
 
