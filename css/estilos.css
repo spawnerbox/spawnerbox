@@ -232,13 +232,12 @@ main .sobre-nosotros{
 	
 	
     display: flex;
-	flex-direction: row;
 	
     height: 430px;
-    width: 80%;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    /*flex-direction: column;*/
+    flex-direction: column;
 	
 }
 
